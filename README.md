@@ -14,11 +14,11 @@ This documentation includes the step-by-step instructions to run and test *Liber
 <a name="changes"></a>
 ## Code Changes
 
-**1)** [compile.sh](../blob/master/compile.sh) including -Dhttps.protocols=SSLv3,TLSv1,TLSv1.1,TLSv1.2, because some of the Maven plugins did not support deprecated SSL protocols
+**1)** [compile.sh](./compile.sh) including -Dhttps.protocols=SSLv3,TLSv1,TLSv1.1,TLSv1.2, because some of the Maven plugins did not support deprecated SSL protocols
 
-**2)** [pom.xml](../blob/master/pom.xml) findbugs-maven-plugin  <version>3.0.4</version> : I'm using maven 3.6, so this plugin disappears starting from the plugin version 3.0.4
+**2)** [pom.xml](./pom.xml) findbugs-maven-plugin  <version>3.0.4</version> : I'm using maven 3.6, so this plugin disappears starting from the plugin version 3.0.4
 
-**3)** [OVXPacketOut.java](../src/main/java/net/onrc/openvirtex/messages/OVXPacketOut.java): import net.onrc.openvirtex.elements.OVXmodes.OVXmodeHandler; 
+**3)** [OVXPacketOut.java](./src/main/java/net/onrc/openvirtex/messages/OVXPacketOut.java): import net.onrc.openvirtex.elements.OVXmodes.OVXmodeHandler; 
 
 
 <a name="install"></a>
