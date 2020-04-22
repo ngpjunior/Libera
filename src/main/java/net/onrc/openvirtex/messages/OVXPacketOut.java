@@ -24,6 +24,9 @@ package net.onrc.openvirtex.messages;
 import net.onrc.openvirtex.elements.address.IPMapper;
 import net.onrc.openvirtex.elements.datapath.OVXSwitch;
 import net.onrc.openvirtex.elements.port.OVXPort;
+
+import net.onrc.openvirtex.elements.OVXmodes.OVXmodeHandler;
+
 import net.onrc.openvirtex.exceptions.ActionVirtualizationDenied;
 import net.onrc.openvirtex.exceptions.DroppedMessageException;
 import net.onrc.openvirtex.messages.actions.OVXAction;

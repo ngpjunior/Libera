@@ -127,6 +127,7 @@ public class Migration {
 
                 arp.setSenderHardwareAddress(mac.getBytes());
                 arp.setSenderProtocolAddress(match.get(MatchField.ARP_TPA).getBytes());  //arp_spa=10.0.0.1, arp_tpa=10.0.0.2
+		log.info("ARP SPA : {} --- ARP TPA : {} ",MatchField.ARP_SPA, MatchField.ARP_TPA);
 
                 arp.setTargetHardwareAddress(srcMac.getBytes());
                 arp.setTargetProtocolAddress(match.get(MatchField.ARP_SPA).getBytes());
