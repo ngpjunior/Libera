@@ -37,7 +37,7 @@ This documentation includes the step-by-step instructions to run and test *Liber
 
 
 
-[Alternative Repo](https://mega.nz/file/2rhx0bBD): jdk-7u80-linux-x64.tar.gz
+[Alternative Repo](https://mega.nz/file/6j5x1QSK#nn1QjI0S9eDmNniJBmAH4-umObXrNgZ9VYO6ahhYZak): jdk-7u80-linux-x64.tar.gz
 
 
 **2)** Extract
@@ -85,7 +85,7 @@ This documentation includes the step-by-step instructions to run and test *Liber
 	
 	wget http://ftp.unicamp.br/pub/apache/maven/maven-3/3.6.3/binaries/apache-maven-3.6.3-bin.tar.gz
 
-[Alternative repo](https://mega.nz/file/myxn2SAK)
+[Alternative repo](https://mega.nz/file/njp3zARb#lHRuvp1a5PALcJq3REe6ChzJl9w2HWIYT_tbZQVIZtc)
 
 	tar -xvf apache-maven-3.6.3-bin.tar.gz
 
