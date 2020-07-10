@@ -99,14 +99,6 @@ This documentation includes the step-by-step instructions to run and test *Liber
 	export PATH=$PATH:$HOME/bin:$JAVA_HOME/bin:/opt/apache-maven-3.6.3/bin
 	export JRE_HOME
 
-> or paste it on terminal
-
-	cat >> ~/.profile <<x
-	export JAVA_HOME=/usr/lib/jvm/jdk1.7.0_80/
-	export PATH=$PATH:$HOME/bin:$JAVA_HOME/bin:/opt/apache-maven-3.6.3/bin
-	export JRE_HOME
-	x
-
 > and:
 
 	source .profile
