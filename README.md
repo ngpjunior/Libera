@@ -115,13 +115,3 @@ This documentation includes the step-by-step instructions to run and test *Liber
   ```shell
   sh compilable-openvirtex-Libera/scripts/libera.sh –-db-clear	
   ```
-
-
-<a name="contacts"></a>
-## Contacts
-+ This project is a fork of [Libera Hypervisor](https://github.com/os-libera/Libera)
-+ My email is nelsonpratesg@gmail.com
-
-+ The original project is under the lead of Professor Chuck Yoo.
-+ Contributors: Gyeongsik Yang, Bong-yeol Yu, Seong-Mun Kim, Heesang Jin, Wontae Jeong, Minkoo Kang, Anumeha, Yeonho Yoo
-+ Mailing list: [Here](https://groups.google.com/forum/#!forum/ovx-discuss) - We share mailing list with OpenVirteX
